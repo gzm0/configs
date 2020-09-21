@@ -10,7 +10,7 @@
 
 ;; Set nice font
 
-(set-default-font "Inconsolata-11")
+(set-frame-font "Inconsolata-11")
 
 ;; Enable column-number-mode
 
