@@ -21,7 +21,7 @@
 (require 'package)
 
 ;; List of required packages
-(setq package-list '(ensime find-things-fast magit))
+(setq package-list '(scala-mode find-things-fast magit))
 
 ;; Setup Melpa
 (add-to-list 'package-archives
@@ -40,11 +40,6 @@
     (package-install package)))
 
 ;;;; Package config
-
-;; ensime
-
-(require 'ensime)
-(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
 
 ;; find-file-fast
 
