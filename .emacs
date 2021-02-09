@@ -21,7 +21,7 @@
 (require 'package)
 
 ;; List of required packages
-(setq package-list '(scala-mode find-things-fast magit))
+(setq package-list '(scala-mode find-things-fast magit rust-mode))
 
 ;; Setup Melpa
 (add-to-list 'package-archives
@@ -50,3 +50,9 @@
 
 (global-set-key (kbd "C-x g") 'magit-status) ; bind to C-x g
 
+;; rust-mode
+
+(require 'rust-mode)
+(setq rust-format-on-save t)
+(define-key rust-mode-map (kbd "C-c C-r") 'rust-compile)
+(define-key rust-mode-map (kbd "C-c C-r") 'rust-run)
