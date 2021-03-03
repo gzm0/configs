@@ -54,5 +54,5 @@
 
 (require 'rust-mode)
 (setq rust-format-on-save t)
-(define-key rust-mode-map (kbd "C-c C-r") 'rust-compile)
+(define-key rust-mode-map (kbd "C-c C-c") 'rust-compile)
 (define-key rust-mode-map (kbd "C-c C-r") 'rust-run)
