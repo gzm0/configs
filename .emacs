@@ -21,7 +21,7 @@
 (require 'package)
 
 ;; List of required packages
-(setq package-list '(scala-mode find-things-fast magit rust-mode))
+(setq package-list '(scala-mode find-things-fast magit rust-mode markdown-mode))
 
 ;; Setup Melpa
 (add-to-list 'package-archives
