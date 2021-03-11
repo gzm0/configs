@@ -21,7 +21,7 @@
 (require 'package)
 
 ;; List of required packages
-(setq package-list '(scala-mode find-things-fast magit rust-mode markdown-mode))
+(setq package-list '(scala-mode find-things-fast magit rust-mode markdown-mode yaml-mode ws-butler))
 
 ;; Setup Melpa
 (add-to-list 'package-archives
@@ -56,3 +56,7 @@
 (setq rust-format-on-save t)
 (define-key rust-mode-map (kbd "C-c C-c") 'rust-compile)
 (define-key rust-mode-map (kbd "C-c C-r") 'rust-run)
+
+;; ws-butler
+(require 'ws-butler)
+(ws-butler-global-mode)
