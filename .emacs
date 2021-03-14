@@ -21,7 +21,19 @@
 (require 'package)
 
 ;; List of required packages
-(setq package-list '(scala-mode find-things-fast magit rust-mode markdown-mode yaml-mode ws-butler))
+(setq package-list '(
+   ;; productivity
+   magit
+   ws-butler
+   find-things-fast
+
+   ;; language modes
+   scala-mode
+   rust-mode
+   markdown-mode
+   yaml-mode
+   php-mode
+))
 
 ;; Setup Melpa
 (add-to-list 'package-archives
