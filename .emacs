@@ -33,6 +33,8 @@
    markdown-mode
    yaml-mode
    php-mode
+   typescript-mode
+   dockerfile-mode
 ))
 
 ;; Setup Melpa
