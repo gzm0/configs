@@ -35,6 +35,7 @@
    php-mode
    typescript-mode
    dockerfile-mode
+   bazel
 ))
 
 ;; Setup Melpa
