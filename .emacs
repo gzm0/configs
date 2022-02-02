@@ -75,3 +75,6 @@
 ;; ws-butler
 (require 'ws-butler)
 (ws-butler-global-mode)
+
+;; js mode config
+(setq js-indent-level 2)
