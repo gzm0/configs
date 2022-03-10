@@ -36,6 +36,7 @@
    typescript-mode
    dockerfile-mode
    go-mode
+   protobuf-mode
    bazel
 ))
 
