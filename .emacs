@@ -38,6 +38,7 @@
    go-mode
    protobuf-mode
    bazel
+   jinja2-mode
 ))
 
 ;; Setup Melpa
