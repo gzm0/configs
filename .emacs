@@ -81,3 +81,6 @@
 ;; js mode config
 (setq js-indent-level 2)
 (setq typescript-indent-level 2)
+
+; never tabs
+(setq indent-tabs-mode nil)
