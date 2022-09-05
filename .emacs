@@ -86,6 +86,3 @@
 
 ; never tabs
 (setq indent-tabs-mode nil)
-
-;; prettier
-(add-hook 'after-init-hook #'global-prettier-mode)
