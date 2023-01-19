@@ -40,6 +40,7 @@
    bazel
    prettier
    jinja2-mode
+   python-black
 ))
 
 ;; Setup Melpa
