@@ -1,0 +1,10 @@
+!regolith.look.path: /home/shre/regolith-look/nevil
+
+#define gtk_font_name Bitstream Vera Sans 11
+#define gtk_document_font_name Sans 11
+#define gtk_monospace_font_name BitstreamVeraSansMono Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+regolith.look.path: /usr/share/regolith-look/nevil
