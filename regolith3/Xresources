@@ -7,3 +7,5 @@ gtk.font_name: gtk_font_name
 gtk.document_font_name: gtk_document_font_name
 gtk.monospace_font_name: gtk_monospace_font_name
 regolith.look.path: /usr/share/regolith-look/nevil
+
+gnome.terminal.update: false
