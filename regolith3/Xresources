@@ -1,4 +1,3 @@
-!regolith.look.path: /home/shre/regolith-look/nevil
 
 #define gtk_font_name Bitstream Vera Sans 11
 #define gtk_document_font_name Sans 11
