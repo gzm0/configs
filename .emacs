@@ -8,10 +8,6 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
-;; Set nice font
-
-(set-frame-font "Inconsolata-11")
-
 ;; Enable column-number-mode
 
 (setq column-number-mode t)
