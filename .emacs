@@ -80,6 +80,7 @@
 ;; js mode config
 (setq js-indent-level 2)
 (setq typescript-indent-level 2)
+(add-hook 'after-init-hook #'global-prettier-mode)
 
 ; never tabs
 (setq indent-tabs-mode nil)
