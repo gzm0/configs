@@ -21,7 +21,7 @@
    ;; productivity
    magit
    ws-butler
-   find-things-fast
+   project
 
    ;; language modes
    scala-mode
@@ -58,10 +58,9 @@
 
 ;;;; Package config
 
-;; find-file-fast
+;; project-find-file
 
-(global-set-key (kbd "C-x t") 'ftf-find-file) ; bind to C-x t
-(setq ftf-filetypes '("*"))                   ; allow all filetypes
+(global-set-key (kbd "C-x t") 'project-find-file) ; bind to C-x t
 
 ;; magit
 
