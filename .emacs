@@ -33,6 +33,7 @@
    dockerfile-mode
    go-mode
    protobuf-mode
+   terraform-mode
    bazel
    prettier
    jinja2-mode
